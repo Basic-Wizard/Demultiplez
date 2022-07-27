@@ -14,8 +14,10 @@
     1. Use markdown to insert your 4 histograms here.
     2. **YOUR ANSWER HERE**
     3.  (base) [kraleigh@n278 2017_sequencing]$ zcat 1294_S1_L008_R2_001.fastq.gz | grep -A1 "@" | grep -v "^@" | grep -v "-" | grep "N" | wc -l
+        
         3976613
         (base) [kraleigh@n278 2017_sequencing]$ zcat 1294_S1_L008_R3_001.fastq.gz | grep -A1 "@" | grep -v "^@" | grep -v "-" | grep "N" | wc -l
+        
         3328051
     
 ## Part 2
