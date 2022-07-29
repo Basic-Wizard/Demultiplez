@@ -5,15 +5,21 @@
 
 | File name | label | Read length | Phred encoding |
 |---|---|---|---|
-| 1294_S1_L008_R1_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R2_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R3_001.fastq.gz |  |  |  |
-| 1294_S1_L008_R4_001.fastq.gz |  |  |  |
+| 1294_S1_L008_R1_001.fastq.gz | read 1 | 101 | -33 |
+| 1294_S1_L008_R2_001.fastq.gz | index 1 | 8 | -33 |
+| 1294_S1_L008_R3_001.fastq.gz | index 2 | 8 | -33 |
+| 1294_S1_L008_R4_001.fastq.gz | read 2 | 101 | -33 |
 
 2. Per-base NT distribution
     1. Use markdown to insert your 4 histograms here.
     2. **YOUR ANSWER HERE**
-    3. **YOUR ANSWER HERE**
+    3.  (base) [kraleigh@n278 2017_sequencing]$ zcat 1294_S1_L008_R2_001.fastq.gz | grep -A1 "@" | grep -v "^@" | grep -v "-" | grep "N" | wc -l
+        
+        3976613
+        
+        (base) [kraleigh@n278 2017_sequencing]$ zcat 1294_S1_L008_R3_001.fastq.gz | grep -A1 "@" | grep -v "^@" | grep -v "-" | grep "N" | wc -l
+        
+        3328051
     
 ## Part 2
 1. Define the problem
