@@ -39,3 +39,22 @@ you should have 48 indexed FASTQ files, 2 for each index (one per read), 2 index
     2. Function headers (name and parameters) 
     3. Test examples for individual functions
     4. Return statement
+Reverse compliment: 
+creates a reverse compliment of the input sequence
+reverse compliment (ATCGN)
+CGATN
+
+is unmatched:
+Is the index in r1 and the reverse compliment of r2 index in the index list?
+is unmatched (AAAT,AAAN)
+flase
+
+is index hopped:
+checks if the indexis match
+is index hopped (AAA,GGG)
+true
+
+sort record:
+prints the current record into the proper files
+sort record("properly indexed record")
+(appends file with the record to the propper index file for the propper read with the newly indexed header)
