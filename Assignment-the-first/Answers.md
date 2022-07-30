@@ -31,7 +31,6 @@ you should have 48 indexed FASTQ files, 2 for each index (one per read), 2 index
 5. High level functions. For each function, be sure to include:
 1. Description/doc string
 demultiplexes multiplexed illumina reads and removes index hopped and unmatched reads 
-2. Function headers (name and parameters)
-
+2. Function headers (name and parameters) 
 3. Test examples for individual functions
 4. Return statement
